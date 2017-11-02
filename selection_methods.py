@@ -8,8 +8,11 @@ _SELECT_ARMY = actions.FUNCTIONS.select_army.id
 
 _SELECT_ALL = [0]
 
+# Reference https://github.com/deepmind/pysc2/blob/master/pysc2/lib/actions.py
+_MOVE_SCREEN = 331 #actions.FUNCTIONS.Move_screen.id 
+
 ###
-#_SELECT_POINT = 2 #writing: actions.FUNCTIONS.select_point.id # would be more sensible
+# _SELECT_POINT = 2 #writing: actions.FUNCTIONS.select_point.id # would be more sensible
 # If you are selecting a specific unit, you should find it's unit id.
 # Those can be found at: https://github.com/Blizzard/s2client-api/blob/master/include/sc2api/sc2_typeenums.h
 # For instance a zergling is 105, a marine is 48
