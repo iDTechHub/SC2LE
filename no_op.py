@@ -14,6 +14,5 @@ class ScriptedTechBot(base_agent.BaseAgent):
         super(ScriptedTechBot, self).step(obs)
         
         # If you wanted an unreadable function that gets worse as you go on
-        # here you could write:
-        # return actions.FunctionCall(0, [])
+        # here you could write: # return actions.FunctionCall(0, [])
         return actions.FunctionCall(_NO_OP, [])
