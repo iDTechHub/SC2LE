@@ -50,14 +50,12 @@ To create a bot that doesn't do anything, start by importing pysc2 libraries, an
 
 ![alt text](https://github.com/iDTechHub/SC2LE/blob/master/Images/sc2conf_008_noop_v2.PNG "no_op bot code")
 
-- See the no_op.py file on this GitHub.
+- See the [no_op.py](https://github.com/iDTechHub/SC2LE/blob/master/no_op.py) file.
 
 
 ----------
 
-
 #### 5) Run Your Script 
-
 
 After you have the script, to test it and see it in action, call pysc2.bin.agent, but use your own filename.classname at the end. If you used the no_op file here you would run the following:
 
@@ -114,3 +112,9 @@ There's a very bare-bones example of this functionality in the  [movement_method
 ### Completed Part 1!
 
 ----------
+
+### What's next?
+
+![alt text](https://github.com/iDTechHub/SC2LE/blob/master/Images/selectbot%20small.gif "Dual Control Bot")
+
+- Check out the [dual control bot](https://github.com/iDTechHub/SC2LE/blob/master/dual_control.py), and try saving and running it yourself!
