@@ -7,7 +7,7 @@ _NO_OP = actions.FUNCTIONS.no_op.id
 _SELECT_ARMY = actions.FUNCTIONS.select_army.id
 
 _SELECT_ALL = [0]
-_SCREEN = [0]
+_SELECT = [0]
 
 # Reference https://github.com/deepmind/pysc2/blob/master/pysc2/lib/actions.py
 _MOVE_SCREEN = actions.FUNCTIONS.Move_screen.id 
@@ -50,4 +50,4 @@ class ScriptedTechBot(base_agent.BaseAgent):
             
             #select_point = [select_x_mean, select_y_mean]
                 
-            #return actions.FunctionCall(_SELECT_POINT, [_SCREEN, select_point])
+            #return actions.FunctionCall(_SELECT_POINT, [_SELECT, select_point])
