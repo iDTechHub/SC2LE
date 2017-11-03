@@ -37,9 +37,11 @@ Then you'll want to go into your pysc2/maps/mini_games.py file and add your map 
 
 ![alt text](https://github.com/iDTechHub/SC2LE/blob/master/Images/sc2conf_006a_maparray.png "map array")
 
+But, instead of YOURMAPNAME it would be "CollectMinShards", #120s 
+
 | Note:        | 
 | ------------- |
-| *If you're adding and editing new maps, you'll want to clone or download from git, and then run setup.py to get your new map files in.* |
+| *If you're adding and editing new maps, you'll want to clone or download PYYSC2 from Git, and then run setup.py to get your new map files in.* |
 
 
 
