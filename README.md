@@ -1,13 +1,18 @@
 # SC2LE
 Work, notes, and code for the upcoming SC2 ML and AI conference.
 ####1) Download Stuff
+
 To get started you'll need to get files from a couple of different locations.
+
 • [Starcraft 2 Linux Edition, and Ladder Maps](https://github.com/Blizzard/s2client-proto#downloads)
+
 • [PySC2, and Mini Games](https://github.com/deepmind/pysc2)
+
 • [Numpy](http://www.numpy.org/) (I like [Anaconda](https://www.anaconda.com/download/))
 
 
 ----------
+
 ####2) Test an Agent
 After you have the requisite files you'll want to run a test agent to ensure everything was installed correctly. To test a random agent type the following in your terminal:
 
@@ -18,6 +23,7 @@ You can also test the game and system yourself by running:
 - `python -m pysc2.bin.play --map Simple64`
 
 ----------
+
 ####3) Create a New Map
 
 You can download the CollectMinShards from this GitHub account, or use your own if you have it. 
@@ -28,16 +34,7 @@ After downloading or creating your map,
 
 Then you'll want to go into your pysc2/maps/mini_games.py file and add your map name to the array. If you used the CollectMinShards map from this GitHub and added it to the end of the list it should look like:
 
-```mini_games = [
-    "BuildMarines",  # 900s
-    "CollectMineralsAndGas",  # 420s
-    "CollectMineralShards",  # 120s
-    "DefeatRoaches",  # 120s
-    "DefeatZerglingsAndBanelings",  # 120s
-    "FindAndDefeatZerglings",  # 180s
-    "MoveToBeacon",  # 120s
-    "CollectMinShards", #120s
-] ```
+![alt text](https://github.com/iDTechHub/SC2LE/blob/master/Images/sc2conf_006a_maparray.png "map array")
 
 Note: | 
 --- | --- | ---
@@ -56,7 +53,9 @@ To create a bot that doesn't do anything, start by importing pysc2 libraries, an
 
 ----------
 
+
 ####5) Run Your Script 
+
 
 After you have the script, to test it and see it in action, call pysc2.bin.agent, but use your own filename.classname at the end. If you used the no_op file here you would run the following:
 
