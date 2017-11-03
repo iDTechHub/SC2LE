@@ -48,9 +48,11 @@ But, instead of YOURMAPNAME it would be "CollectMinShards", #120s
 ----------
 
 #### 4) Create a no_op script
-To create a bot that doesn't do anything, start by importing pysc2 libraries, and create a class that inherits from base_agent. Then 
+To create a bot that doesn't do anything, start by importing pysc2 libraries, and create a class that inherits from base_agent. 
 
 ![alt text](https://github.com/iDTechHub/SC2LE/blob/master/Images/sc2conf_008_noop_v2.PNG "no_op bot code")
+
+ Then:
 
 - See the [no_op.py](https://github.com/iDTechHub/SC2LE/blob/master/no_op.py) file.
 
@@ -91,7 +93,7 @@ The easiest and quickest way to select a unit is to just select your entire army
 
 | Note:        | 
 | ------------- |
-| *You can see the full code for selecting an army. A good exercise would be to see if you can look through [actions.py](https://github.com/deepmind/pysc2/blob/master/pysc2/lib/actions.py) and figure out how to implement select_rect* |
+| *You can see the full code for selecting an army [here](https://github.com/iDTechHub/SC2LE/blob/master/selection_methods.py). A good exercise would be to see if you can look through [actions.py](https://github.com/deepmind/pysc2/blob/master/pysc2/lib/actions.py) and figure out how to implement select_rect* |
 
 
 ----------
